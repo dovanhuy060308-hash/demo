@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thế Giới Những Chú Mèo 🐱</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #fff7f0;
+            color: #493b35;
+        }
+
+        header {
+            background: #ffb6b9;
+            text-align: center;
+            padding: 35px 15px;
+        }
+
+        header h1 {
+            font-size: 38px;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: white;
+            font-size: 18px;
+        }
+
+        nav {
+            background: #ff9298;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #754b45;
+        }
+
+        .banner {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .banner img {
+            width: 80%;
+            max-width: 650px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px #ddd;
+        }
+
+        .banner h2 {
+            color: #e77d83;
+            margin: 20px;
+            font-size: 28px;
+        }
+
+        .section {
+            padding: 35px 8%;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: #e77d83;
+            margin-bottom: 25px;
+            font-size: 28px;
+        }
+
+        .cats {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .cat-card {
+            background: white;
+            width: 250px;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px #e8d8d0;
+            transition: 0.3s;
+        }
+
+        .cat-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .cat-card img {
+            width: 100%;
+            height: 190px;
+            object-fit: cover;
+        }
+
+        .cat-card h3 {
+            color: #e77d83;
+            margin: 15px;
+        }
+
+        .cat-card p {
+            padding: 0 15px 20px;
+            line-height: 1.5;
+        }
+
+        .about {
+            background: #ffe1d9;
+            padding: 40px 12%;
+            text-align: center;
+            line-height: 1.8;
+        }
+
+        .about h2 {
+            color: #d96f77;
+            margin-bottom: 15px;
+        }
+
+        button {
+            background: #ff9298;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #ed737c;
+        }
+
+        footer {
+            background: #ff9298;
+            text-align: center;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            .banner img {
+                height: 200px;
+                width: 100%;
+            }
+
+            nav a {
+                margin: 5px;
+                display: inline-block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🐱 Thế Giới Những Chú Mèo 🐾</h1>
+        <p>Nơi dành cho những trái tim yêu mèo!</p>
+    </header>
+
+    <nav>
+        <a href="#home">Trang chủ</a>
+        <a href="#cats">Các giống mèo</a>
+        <a href="#about">Về loài mèo</a>
+    </nav>
+
+    <section class="banner" id="home">
+        <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=1000"
+             alt="Một chú mèo đáng yêu">
+
+        <h2>Chào mừng đến với thế giới mèo đáng yêu! ❤️</h2>
+        <p>Mèo không chỉ là thú cưng, mà còn là những người bạn tuyệt vời.</p>
+    </section>
+
+    <section class="section" id="cats">
+        <h2>🌸 Những giống mèo đáng yêu</h2>
+
+        <div class="cats">
+
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=500"
+                     alt="Mèo Anh lông ngắn">
+                <h3>Mèo Anh lông ngắn</h3>
+                <p>Đáng yêu, mũm mĩm, hiền lành và có bộ lông mềm mại.</p>
+            </div>
+
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?w=500"
+                     alt="Mèo con">
+                <h3>Mèo con</h3>
+                <p>Nhỏ nhắn, tinh nghịch và luôn khiến mọi người tan chảy.</p>
+            </div>
+
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=500"
+                     alt="Mèo dễ thương">
+                <h3>Mèo lông dài</h3>
+                <p>Sở hữu bộ lông bồng bềnh và vẻ ngoài vô cùng quý phái.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>💗 Những điều thú vị về loài mèo</h2>
+
+        <p>
+            Mèo là loài động vật có vú vô cùng đáng yêu.
+            Chúng thích ngủ, thích khám phá và thường rất tò mò
+            về mọi thứ xung quanh.
+        </p>
+
+        <p>
+            Mèo có thể ngủ khoảng 12–16 tiếng mỗi ngày.
+            Chúng giao tiếp bằng tiếng kêu, ánh mắt và chiếc đuôi.
+            Đặc biệt, tiếng gừ gừ của mèo thường khiến con người cảm thấy thư giãn.
+        </p>
+
+        <button onclick="showMessage()">
+            Bấm vào đây 🐾
+        </button>
+
+        <p id="message" style="margin-top:20px;font-weight:bold;"></p>
+    </section>
+
+    <footer>
+        <p>🐱 Website được tạo dành cho những người yêu mèo ❤️</p>
+        <p>© 2026 - Cat World</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+                "Meo meo! Chúc bạn luôn vui vẻ và hạnh phúc! 😻❤️";
+        }
+    </script>
+
+</body>
+</html>
